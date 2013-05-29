@@ -1,0 +1,28 @@
+.app {width:500px; margin-left:auto; margin-right:auto;}
+ .logo {
+font-size: 36px;
+font-family: inherit;
+line-height: 1.4em;
+margin-right:auto;
+margin-left:auto;
+margin-bottom:10px;
+
+ }
+ .form-prop {
+width:466px;
+padding:4px;
+font-size: 24px;
+font-family: inherit;
+line-height: 1.4em;
+margin-right:auto;
+margin-left:auto;
+margin-bottom:10px;
+ }
+
+.center {margin-right:auto;}
+
+.white {
+background-color:#ffffff;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;}

@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+</head>
+<body>
+
+	 <div class="app white">
+<center><div class="logo">Simple ToDo</div></center>
+	<form action="" method="post">
+                <center><input type="text" name="item" class="form-prop" placeholder="What needs to be done?" required/></center>
+               <!--- <input type="submit" value="Go" id="submit"/> --->
+    </form>
+	
+	 <ul>
+	{% for todo in todos %}
+		{% ifequal todo.author.nickname nickname %}
+      <input type="checkbox"> {{todo.item}} <hr />
+		{% endifequal %}
+    {% endfor %}
+	</ul>
+	</div>
+
+    
+	
+</body>
+</html>
+	
